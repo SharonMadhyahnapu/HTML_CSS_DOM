@@ -1,0 +1,16 @@
+.container{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    display: grid;
+height: auto;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows:repeat(3 ,100px)
+}
+.items{
+background-color:tomato;
+margin: 2px;
+/* padding:20px */
+border: 2px solid black;
+
+}

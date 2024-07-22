@@ -1,0 +1,48 @@
+.class h4{
+    text-decoration: underline;
+}
+
+.bg{
+background-color: rgba(128, 128, 128, 0.592);
+    position: absolute;
+    top:0px;
+    bottom:-200px;
+    left: 0px;
+    right: 0px;
+}
+.hii{
+  width: 600px;
+  height:180px;
+  position: fixed;
+  top: 250px;
+  bottom: 250px;
+  left: 300px;
+  right: 400px;
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px gray;
+
+}
+.p p{
+  
+   padding-left: 5px;
+}
+.popup h2{
+   padding-left: 25px;
+    
+ }
+ .button{
+    margin-top: 15px;
+    margin-left: 200px;
+    color: white;
+    background-color: rgb(183, 0, 255);
+    cursor: pointer;
+   
+ }
+ .link{
+    margin-top: 15px;
+    margin-left: 215px;
+    margin-bottom: 2px;
+ }
+ 

@@ -1,0 +1,124 @@
+*{
+    margin:0px;
+}
+
+.container{
+min-height: 300px;
+display: flex;
+padding: 20px;
+gap:40px;;
+   
+}
+.box{
+    width: 300px;
+    background-color: rgb(239,239,239);
+    border-radius: 10px;
+    padding: 20px 10px;
+    display: flex;                      /*for the gap between titil container and the button*/
+    flex-flow: column wrap;      
+    gap: 10px;
+}
+.title-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap:20px;  /* gap between the graypart of title(to do 2 process) and icon */
+
+}
+.title + .material-icons{
+    visibility: hidden;
+}
+.title-container > .title:hover + .material-icons{
+visibility: visible;
+}
+.box .title{
+    font-size: 14px;
+    color: #5E6C84;
+    flex-grow: 1;
+    transition: 0.2s;
+}
+.title:hover{
+    background-color: #47516172;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+#create-issue{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:10px;
+    color: #5E6C84;
+    padding: 4px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+#create-issue:hover{
+    background-color: #47516172;
+    border-radius: 5px;
+}
+.item{
+    border: 1px solid #0052CC;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.item > textarea, .item > textarea:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.item > select:focus{
+    outline: none;
+}
+.item > select{
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    align-self: flex-start;
+    cursor: pointer;
+}
+.modal{
+    position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(214, 224, 243, 0.452);
+    display: flex;
+    justify-content: center;
+}
+.modal form{
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 100px;
+    gap: 20px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 3px;
+    width: 30vw;
+    position: relative;
+}
+
+.modal input, .modal textarea, .modal button, .modal select{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #F4F5F7;
+    border: none;
+    padding: 10px;
+}
+.modal button{
+    background-color: #0052CC;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right:20px;
+    cursor: pointer;
+}

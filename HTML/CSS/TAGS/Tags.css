@@ -1,0 +1,77 @@
+
+body{
+    border: 1px solid black;
+    width: 20vw;
+    height: 65vh;
+    border-radius: 5px;
+    
+}
+.main{
+
+    padding: 10px 10px 10px 10px;
+
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header{
+    background-color: rgb(201,237,255);
+    padding: 15px 90px ;
+    border-radius: 4px;
+    margin:0px
+}
+.nav{
+   background-color:rgb(250,207,214) ; 
+   padding: 0px 100px;
+   border-radius: 4px;
+   margin: 10px;
+}
+.footer{
+    background-color: rgb(201,237,255);
+    padding: 15px 90px ;
+    border-radius: 4px;
+    margin-top: 10px;
+    
+}
+.two{
+    display: grid;
+    grid-template-columns: 140px 75px;
+     /* grid-template-rows: 100px;  */
+    row-gap: 10px;
+    column-gap: 10px;
+    /* background-color: rebeccapurple; */
+    margin: 0px;
+    padding: 0px;
+    grid-template-rows: auto 90px;
+    align-items: center;
+    /* justify-items: center; */
+    
+}
+two:nth-child(2){
+    grid-row: 2/3;
+
+}
+.aside{
+    background-color: rgb(255,242,181);
+    border-radius: 4px;
+    margin: 0px;
+    /* padding: 100px 0px 0px 0px; */ 
+}
+.article{
+background-color: rgb(222,209,237);
+border-radius: 4px;
+padding: 35px ;
+margin: 0px;
+/* align-self: center; */
+}
+.section{
+background-color: rgb(237,255,168);
+border-radius: 4px;
+padding: 50px ;
+margin: 0px;
+align-self: center;
+}
+
+ 

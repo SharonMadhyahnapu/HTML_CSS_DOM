@@ -1,0 +1,82 @@
+
+header{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: rgb(24,119,242);
+    font-weight: bold;
+    
+}
+.link{
+   color:  rgb(24,119,242);
+}
+.onepart{
+    background-color: rgb(240,242,245);
+    margin: 0px;
+    padding: 50px 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.twopart{
+    margin: 0px;
+   
+}
+.box{
+    background-color: white;
+    border-radius: 5px;
+    margin: 25px 0px;
+    padding: 0px 15px 25px 15px;
+    width: 25vw;
+    height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  box-shadow: 1px 1px 5px 5px rgb(233, 229, 229);
+}
+.boxin{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ row-gap: 10px;
+
+}
+.hi{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica, Arial, sans-serifinherit;
+   
+}
+a{
+    color: rgb(24,119,242);
+    font-family: Helvetica, Arial, sans-serifinherit;
+     font-size: 12px;
+    text-decoration: none;
+}
+
+.input{
+    padding: 12px 5px;
+    /* display: block; */
+    width:300px ;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 5px;
+}
+.ip3{
+    width: 305px;
+    background-color:  rgb(24,119,242);
+    color: white;
+    cursor: pointer;
+}
+.ip1,.ip2:focus {
+    outline: none;   
+}
+
+
+
+
+
+
+
+

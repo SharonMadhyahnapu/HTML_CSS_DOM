@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+   
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px 8px 60px;
+    background-color: rgb(56,88,153);
+    color: white;
+   
+}
+.navright{
+    font-family:  Helvetica, Arial, sans-serifinherit;
+    font-size: small;
+    color: rgb(214,219,233);
+    display: flex;
+    flex-direction: row wrap;
+    gap:10px;
+    
+}
+input{
+    padding: 5px;
+    width:15vw;
+}
+.nav button{
+    color: rgb(214,219,233);
+    background-color: rgb(56,88,153) ;
+    border: 1px solid black;
+    height: fit-content;
+    display: flex;
+    align-self:center;
+}
+.main{
+    display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+ /* padding:20px 50px 200px 60px ; */
+ background-color: rgb(238,240,245);
+ padding-left: 70px;
+ 
+}
+.in{
+    width: 230px;
+    
+}
+.name{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family:  Helvetica, Arial, sans-serifinherit;
+    color:  rgb(6,53,95);
+padding-top: 70px;
+width:750px;
+}
+.heading{
+    margin-left: -20px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+   align-items: start;
+  margin-left: 200px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family:  Helvetica, Arial, sans-serifinherit;
+    gap: 12px;
+
+
+}
+
+ .para{
+    display: flex;
+    flex-flow: row wrap;
+ }
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style-type: circle;
+    cursor: pointer;
+
+}
+.half{
+    display: flex;
+    flex-direction: column ;
+    /* padding-left: 80px; */
+    padding-top: 10px;
+    /* row-gap: 50px; */
+}
+.signup{
+    background-color: rgb(119,187,96);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font: bold;
+    font-size: large;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
